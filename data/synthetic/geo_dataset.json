@@ -1,0 +1,24 @@
+{
+  "dataset_id": "geo_dataset_001",
+  "total_events": 173,
+  "num_scam": 73,
+  "num_legitimate": 100,
+  "num_campaigns": 5,
+  "regions": [
+    "Delhi",
+    "Pune",
+    "Bhopal",
+    "Lucknow",
+    "Jaipur",
+    "Mumbai",
+    "Indore",
+    "Hyderabad",
+    "Chandigarh",
+    "Kochi",
+    "Ahmedabad",
+    "Kolkata",
+    "Chennai",
+    "Bangalore",
+    "Nagpur"
+  ]
+}

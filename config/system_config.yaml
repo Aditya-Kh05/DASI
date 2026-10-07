@@ -1,0 +1,51 @@
+# ============================================================
+# System Configuration — Digital Arrest Scam Intelligence System
+# ============================================================
+
+system:
+  name: "Digital Arrest Scam Intelligence System"
+  version: "0.1.0"
+  environment: "development"                        # development | staging | production
+  log_level: "INFO"
+  device: "auto"                                    # auto | cpu | cuda | mps
+
+# API Configuration
+api:
+  host: "0.0.0.0"
+  port: 8000
+  cors_origins: ["http://localhost:8080", "http://localhost:3000"]
+  rate_limit: 100                                   # requests per minute
+  api_key_enabled: false                            # Enable in production
+
+# Database
+database:
+  type: "sqlite"                                    # sqlite | postgresql
+  sqlite_path: "data/scam_intelligence.db"
+  # PostgreSQL settings (production)
+  # host: "localhost"
+  # port: 5432
+  # name: "scam_intelligence"
+  # user: "admin"
+  # password: ""
+
+# Data Paths
+data:
+  scam_transcripts: "data/scam_transcripts/"
+  synthetic_data: "data/synthetic/"
+  sample_scenarios: "data/sample_scenarios/"
+  model_checkpoints: "data/checkpoints/"
+  logs: "data/logs/"
+
+# Real-time Processing
+streaming:
+  buffer_size: 100
+  processing_interval_ms: 500
+  max_concurrent_sessions: 50
+
+# Dashboard
+dashboard:
+  host: "0.0.0.0"
+  port: 8080
+  refresh_interval_ms: 2000
+  map_center: [20.5937, 78.9629]                    # India center
+  map_zoom: 5

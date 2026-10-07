@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASI — Digital Arrest Scam Intelligence Dashboard</title>
+    <meta name="description" content="AI-powered real-time threat intelligence dashboard for detecting and tracking digital arrest scam campaigns">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/dashboard.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav" id="topNav">
+        <div class="nav-left">
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                        <path d="M14 2L26 8V20L14 26L2 20V8L14 2Z" stroke="url(#logoGrad)" stroke-width="2" fill="none"/>
+                        <circle cx="14" cy="14" r="4" fill="url(#logoGrad)"/>
+                        <defs>
+                            <linearGradient id="logoGrad" x1="2" y1="2" x2="26" y2="26">
+                                <stop offset="0%" stop-color="#00d4ff"/>
+                                <stop offset="100%" stop-color="#7c3aed"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <span class="logo-text">DASI</span>
+                <span class="logo-subtitle">Scam Intelligence</span>
+            </div>
+        </div>
+        <div class="nav-center">
+            <div class="status-badge active" id="systemStatus">
+                <span class="status-dot"></span>
+                <span>System Active</span>
+            </div>
+            <div class="status-badge" id="apiStatus" style="cursor: pointer; margin-left: 10px;" onclick="checkBackendHealth()">
+                <span class="status-dot" id="apiDot" style="background: #f59e0b;"></span>
+                <span id="apiStatusText">Checking API...</span>
+            </div>
+        </div>
+        <div class="nav-right">
+            <div class="nav-stat">
+                <span class="stat-label">Threats Today</span>
+                <span class="stat-value" id="threatsToday">0</span>
+            </div>
+            <div class="nav-stat">
+                <span class="stat-label">Active Campaigns</span>
+                <span class="stat-value" id="activeCampaigns">0</span>
+            </div>
+            <div class="nav-stat">
+                <span class="stat-label">Signals Processed</span>
+                <span class="stat-value" id="signalsProcessed">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="dashboard" id="dashboard">
+        <!-- Row 1: Threat Score + Escalation + Campaign Status -->
+        <div class="dashboard-row row-1">
+            <!-- Threat Score Gauge -->
+            <div class="card card-threat" id="threatCard">
+                <div class="card-header">
+                    <h2>Threat Assessment</h2>
+                    <span class="card-badge" id="threatBadge">MONITORING</span>
+                </div>
+                <div class="threat-gauge-container">
+                    <svg class="threat-gauge" viewBox="0 0 200 120" id="threatGauge">
+                        <defs>
+                            <linearGradient id="gaugeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#10b981"/>
+                                <stop offset="33%" stop-color="#f59e0b"/>
+                                <stop offset="66%" stop-color="#ef4444"/>
+                                <stop offset="100%" stop-color="#dc2626"/>
+                            </linearGradient>
+                        </defs>
+                        <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="12" stroke-linecap="round"/>
+                        <path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="url(#gaugeGradient)" stroke-width="12" stroke-linecap="round" stroke-dasharray="251" stroke-dashoffset="251" id="gaugeArc"/>
+                        <text x="100" y="85" text-anchor="middle" class="gauge-value" id="gaugeValue">0.00</text>
+                        <text x="100" y="105" text-anchor="middle" class="gauge-label" id="gaugeLabel">MINIMAL</text>
+                    </svg>
+                </div>
+                <div class="threat-details">
+                    <div class="threat-detail">
+                        <span class="detail-label">Processing</span>
+                        <span class="detail-value" id="processingTime">0ms</span>
+                    </div>
+                    <div class="threat-detail">
+                        <span class="detail-label">Confidence</span>
+                        <span class="detail-value" id="overallConfidence">0%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Escalation Velocity -->
+            <div class="card card-velocity" id="velocityCard">
+                <div class="card-header">
+                    <h2>Escalation Velocity</h2>
+                    <span class="card-badge velocity-badge" id="velocityBadge">STABLE</span>
+                </div>
+                <div class="velocity-chart" id="velocityChart">
+                    <canvas id="velocityCanvas" width="400" height="150"></canvas>
+                </div>
+                <div class="velocity-stats">
+                    <div class="vel-stat">
+                        <span class="vel-label">Speed</span>
+                        <span class="vel-value" id="velSpeed">0.000</span>
+                    </div>
+                    <div class="vel-stat">
+                        <span class="vel-label">Acceleration</span>
+                        <span class="vel-value" id="velAccel">0.000</span>
+                    </div>
+                    <div class="vel-stat">
+                        <span class="vel-label">Trend</span>
+                        <span class="vel-value" id="velTrend">—</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Campaign Status -->
+            <div class="card card-campaign" id="campaignCard">
+                <div class="card-header">
+                    <h2>Campaign Intelligence</h2>
+                    <span class="card-badge" id="campaignBadge">0 Active</span>
+                </div>
+                <div class="campaign-list" id="campaignList">
+                    <div class="campaign-empty">No active campaigns detected</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 2: 5 Signal Analyzers -->
+        <div class="dashboard-row row-2">
+            <div class="section-title">
+                <h2>Signal Analyzers</h2>
+                <span class="section-subtitle">5-modal threat detection pipeline</span>
+            </div>
+            <div class="signals-grid" id="signalsGrid">
+                <!-- Signal 1: Conversation Semantics -->
+                <div class="signal-card" id="signal-nlp" data-signal="conversation_semantics">
+                    <div class="signal-header">
+                        <div class="signal-icon nlp-icon">💬</div>
+                        <div class="signal-title">
+                            <h3>Conversation Semantics</h3>
+                            <span class="signal-type">NLP Analysis</span>
+                        </div>
+                        <div class="signal-confidence" id="nlp-confidence">
+                            <svg class="confidence-ring" viewBox="0 0 36 36">
+                                <path class="ring-bg" d="M18 2.5 a 15.5 15.5 0 0 1 0 31 a 15.5 15.5 0 0 1 0 -31"/>
+                                <path class="ring-fg" d="M18 2.5 a 15.5 15.5 0 0 1 0 31 a 15.5 15.5 0 0 1 0 -31" stroke-dasharray="0 97.4"/>
+                            </svg>
+                            <span class="conf-value">0%</span>
+                        </div>
+                    </div>
+                    <div class="signal-scores" id="nlp-scores">
+                        <div class="score-bar"><span class="score-label">Authority</span><div class="bar-track"><div class="bar-fill" data-score="authority"></div></div><span class="score-val">0%</span></div>
+                        <div class="score-bar"><span class="score-label">Urgency</span><div class="bar-track"><div class="bar-fill" data-score="urgency"></div></div><span class="score-val">0%</span></div>
+                        <div class="score-bar"><span class="score-label">Isolation</span><div class="bar-track"><div class="bar-fill" data-score="isolation"></div></div><span class="score-val">0%</span></div>
+                        <div class="score-bar"><span class="score-label">Coercion</span><div class="bar-track"><div class="bar-fill" data-score="coercion"></div></div><span class="score-val">0%</span></div>
+                        <div class="score-bar"><span class="score-label">Legal Abuse</span><div class="bar-track"><div class="bar-fill" data-score="legal"></div></div><span class="score-val">0%</span></div>
+                    </div>
+                </div>
+
+                <!-- Signal 2: Temporal Sequence -->
+                <div class="signal-card" id="signal-temporal" data-signal="temporal_sequence">
+                    <div class="signal-header">
+                        <div class="signal-icon temporal-icon">⏱️</div>
+                        <div class="signal-title">
+                            <h3>Temporal Sequence</h3>
+                            <span class="signal-type">Phase Detection</span>
+                        </div>
+                        <div class="signal-confidence" id="temporal-confidence">
+                            <svg class="confidence-ring" viewBox="0 0 36 36">
+                                <path class="ring-bg" d="M18 2.5 a 15.5 15.5 0 0 1 0 31 a 15.5 15.5 0 0 1 0 -31"/>
+                                <path class="ring-fg" d="M18 2.5 a 15.5 15.5 0 0 1 0 31 a 15.5 15.5 0 0 1 0 -31" stroke-dasharray="0 97.4"/>
+                            </svg>
+                            <span class="conf-value">0%</span>
+                        </div>
+                    </div>
+                    <div class="phase-tracker" id="phase-tracker">
+                        <div class="phase" data-phase="1"><span class="phase-num">1</span><span class="phase-label">Auth</span></div>
+                        <div class="phase-connector"></div>
+                        <div class="phase" data-phase="2"><span class="phase-num">2</span><span class="phase-label">Accuse</span></div>
+                        <div class="phase-connector"></div>
+                        <div class="phase" data-phase="3"><span class="phase-num">3</span><span class="phase-label">Fear</span></div>
+                        <div class="phase-connector"></div>
+                        <div class="phase" data-phase="4"><span class="phase-num">4</span><span class="phase-label">Isolate</span></div>
+                        <div class="phase-connector"></div>
+                        <div class="phase" data-phase="5"><span class="phase-num">5</span><span class="phase-label">Extract</span></div>
+                        <div class="phase-connector"></div>
+                        <div class="phase" data-phase="6"><span class="phase-num">6</span><span class="phase-label">Control</span></div>
+                    </div>
+                    <div class="temporal-stats">
+                        <span class="temporal-stat">Velocity: <b id="phase-velocity">0.0</b>/min</span>
+                        <span class="temporal-stat">Warning: <b id="early-warning">0%</b></span>
+                    </div>
+                </div>
+
+                <!-- Signal 3: Voice Analysis -->
+                <div class="signal-card" id="signal-voice" data-signal="voice_analysis">
+                    <div class="signal-header">
+                        <div class="signal-icon voice-icon">🎙️</div>
+                        <div class="signal-title">
+                            <h3>Voice Analysis</h3>
+                            <span class="signal-type">Audio Intelligence</span>
+                        </div>
+                        <div class="signal-confidence" id="voice-confidence">
+                            <svg class="confidence-ring" viewBox="0 0 36 36">
+                                <path class="ring-bg" d="M18 2.5 a 15.5 15.5 0 0 1 0 31 a 15.5 15.5 0 0 1 0 -31"/>
+                                <path class="ring-fg" d="M18 2.5 a 15.5 15.5 0 0 1 0 31 a 15.5 15.5 0 0 1 0 -31" stroke-dasharray="0 97.4"/>
+                            </svg>
+                            <span class="conf-value">0%</span>
+                        </div>
+                    </div>
+                    <div class="voice-indicators">
+                        <div class="voice-ind"><span class="ind-icon">🤖</span><span class="ind-label">Deepfake</span><span class="ind-value" id="deepfake-prob">0%</span></div>
+                        <div class="voice-ind"><span class="ind-icon">📍</span><span class="ind-label">Environment</span><span class="ind-value" id="env-type">—</span></div>
+                        <div class="voice-ind"><span class="ind-icon">🎵</span><span class="ind-label">Stress</span><span class="ind-value" id="stress-score">—</span></div>
+                        <div class="voice-ind"><span class="ind-icon">⏩</span><span class="ind-label">Speech Rate</span><span class="ind-value" id="speech-rate">—</span></div>
+                    </div>
+                </div>
+
+                <!-- Signal 4: Network Graph -->
+                <div class="signal-card" id="signal-network" data-signal="network_graph">
+                    <div class="signal-header">
+                        <div class="signal-icon network-icon">🕸️</div>
+                        <div class="signal-title">
+                            <h3>Network Graph</h3>
+                            <span class="signal-type">Relationship Intel</span>
+                        </div>
+                        <div class="signal-confidence" id="network-confidence">
+                            <svg class="confidence-ring" viewBox="0 0 36 36">
+                                <path class="ring-bg" d="M18 2.5 a 15.5 15.5 0 0 1 0 31 a 15.5 15.5 0 0 1 0 -31"/>
+                                <path class="ring-fg" d="M18 2.5 a 15.5 15.5 0 0 1 0 31 a 15.5 15.5 0 0 1 0 -31" stroke-dasharray="0 97.4"/>
+                            </svg>
+                            <span class="conf-value">0%</span>
+                        </div>
+                    </div>
+                    <div class="network-stats" id="network-stats">
+                        <div class="net-stat"><span class="net-label">Nodes</span><span class="net-value" id="net-nodes">0</span></div>
+                        <div class="net-stat"><span class="net-label">Edges</span><span class="net-value" id="net-edges">0</span></div>
+                        <div class="net-stat"><span class="net-label">Clusters</span><span class="net-value" id="net-clusters">0</span></div>
+                        <div class="net-stat"><span class="net-label">Risk</span><span class="net-value" id="net-risk">0%</span></div>
+                    </div>
+                </div>
+
+                <!-- Signal 5: Geo-Temporal -->
+                <div class="signal-card" id="signal-geo" data-signal="geo_temporal">
+                    <div class="signal-header">
+                        <div class="signal-icon geo-icon">🌍</div>
+                        <div class="signal-title">
+                            <h3>Geo-Temporal</h3>
+                            <span class="signal-type">Geographic Intel</span>
+                        </div>
+                        <div class="signal-confidence" id="geo-confidence">
+                            <svg class="confidence-ring" viewBox="0 0 36 36">
+                                <path class="ring-bg" d="M18 2.5 a 15.5 15.5 0 0 1 0 31 a 15.5 15.5 0 0 1 0 -31"/>
+                                <path class="ring-fg" d="M18 2.5 a 15.5 15.5 0 0 1 0 31 a 15.5 15.5 0 0 1 0 -31" stroke-dasharray="0 97.4"/>
+                            </svg>
+                            <span class="conf-value">0%</span>
+                        </div>
+                    </div>
+                    <div class="geo-stats">
+                        <div class="geo-stat"><span class="geo-label">Hotspots</span><span class="geo-value" id="geo-clusters">0</span></div>
+                        <div class="geo-stat"><span class="geo-label">Spread</span><span class="geo-value" id="geo-spread">0.0</span></div>
+                        <div class="geo-stat"><span class="geo-label">Anomaly</span><span class="geo-value" id="geo-anomaly">0%</span></div>
+                        <div class="geo-stat"><span class="geo-label">Regions</span><span class="geo-value" id="geo-regions">0</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 3: TCAFE Fusion Visualization + Cross-Signal Correlation -->
+        <div class="dashboard-row row-3">
+            <!-- TCAFE Pipeline -->
+            <div class="card card-tcafe" id="tcafeCard">
+                <div class="card-header">
+                    <h2>TCAFE Fusion Pipeline</h2>
+                    <span class="card-badge tcafe-badge">Core Engine</span>
+                </div>
+                <div class="tcafe-pipeline" id="tcafePipeline">
+                    <div class="pipeline-step" id="step-decay">
+                        <div class="step-icon">⏳</div>
+                        <div class="step-info">
+                            <span class="step-name">Confidence Decay</span>
+                            <span class="step-detail" id="decay-detail">c̃ᵢ = cᵢ · e^(-λᵢ · age)</span>
+                        </div>
+                        <div class="step-status active">✓</div>
+                    </div>
+                    <div class="pipeline-arrow">→</div>
+                    <div class="pipeline-step" id="step-attention">
+                        <div class="step-icon">🔗</div>
+                        <div class="step-info">
+                            <span class="step-name">Cross-Signal Attention</span>
+                            <span class="step-detail" id="attention-detail">8-head cross-attention</span>
+                        </div>
+                        <div class="step-status active">✓</div>
+                    </div>
+                    <div class="pipeline-arrow">→</div>
+                    <div class="pipeline-step" id="step-fusion">
+                        <div class="step-icon">⚡</div>
+                        <div class="step-info">
+                            <span class="step-name">State Fusion Φ(t)</span>
+                            <span class="step-detail" id="fusion-detail">256-dim fused state</span>
+                        </div>
+                        <div class="step-status active">✓</div>
+                    </div>
+                    <div class="pipeline-arrow">→</div>
+                    <div class="pipeline-step" id="step-velocity">
+                        <div class="step-icon">📈</div>
+                        <div class="step-info">
+                            <span class="step-name">Escalation Velocity</span>
+                            <span class="step-detail" id="velocity-detail">V(t) = ‖∂Φ/∂t‖</span>
+                        </div>
+                        <div class="step-status active">✓</div>
+                    </div>
+                    <div class="pipeline-arrow">→</div>
+                    <div class="pipeline-step" id="step-campaign">
+                        <div class="step-icon">🎯</div>
+                        <div class="step-info">
+                            <span class="step-name">Campaign Fingerprint</span>
+                            <span class="step-detail" id="campaign-detail">Pattern matching</span>
+                        </div>
+                        <div class="step-status active">✓</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cross-Signal Correlation Matrix -->
+            <div class="card card-correlation" id="correlationCard">
+                <div class="card-header">
+                    <h2>Cross-Signal Correlations</h2>
+                    <span class="card-badge">Learned Weights</span>
+                </div>
+                <div class="correlation-matrix" id="correlationMatrix">
+                    <canvas id="correlationCanvas" width="300" height="300"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 4: Live Incident Analyzer + Event Timeline -->
+        <div class="dashboard-row row-4">
+            <!-- Card 1: Interactive Live AI Incident Tester -->
+            <div class="card card-tester" id="testerCard">
+                <div class="card-header">
+                    <h2>Live Incident Analyzer</h2>
+                    <span class="card-badge" id="testerModeBadge">LIVE AI INFERENCE</span>
+                </div>
+                <div class="tester-body">
+                    <div class="preset-group">
+                        <span class="preset-label">Quick Presets:</span>
+                        <div class="preset-chips">
+                            <button type="button" class="preset-chip active" id="chip-cbi" onclick="loadPreset('cbi')">CBI Digital Arrest</button>
+                            <button type="button" class="preset-chip" id="chip-pmla" onclick="loadPreset('pmla')">ED / Money Laundering</button>
+                            <button type="button" class="preset-chip" id="chip-rbi" onclick="loadPreset('rbi')">RBI Fund Transfer Demand</button>
+                            <button type="button" class="preset-chip" id="chip-legit" onclick="loadPreset('legit')">Legitimate Telecom Inquiry</button>
+                        </div>
+                    </div>
+                    <div class="tester-input-group">
+                        <label for="customMessage" class="tester-input-label">Transcript / Caller Message</label>
+                        <textarea id="customMessage" class="tester-textarea" rows="3" placeholder="Enter transcript or caller messages..."></textarea>
+                    </div>
+                    <div class="tester-meta-row">
+                        <div class="meta-field">
+                            <label class="meta-label">Region</label>
+                            <select id="customRegion" class="tester-select">
+                                <option value="Delhi NCR">Delhi NCR</option>
+                                <option value="Mumbai Metropolitan">Mumbai Metropolitan</option>
+                                <option value="Bangalore Urban">Bangalore Urban</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="Kolkata Metropolitan">Kolkata Metropolitan</option>
+                            </select>
+                        </div>
+                        <div class="meta-field">
+                            <label class="meta-label">Caller ID</label>
+                            <input type="text" id="customCallerId" class="tester-input" value="+91-9876543210" />
+                        </div>
+                        <button class="btn-analyze" id="btnAnalyzeLive" onclick="analyzeCustomIncident()">
+                            ⚡ Analyze with AI
+                        </button>
+                    </div>
+                    <div id="liveResultBanner" class="live-result-banner" style="display: none;">
+                        <span id="liveResultText">Analysis completed in 18ms</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Event Timeline -->
+            <div class="card card-timeline" id="timelineCard">
+                <div class="card-header">
+                    <h2>Live Event Timeline</h2>
+                    <button class="btn-simulate" id="btnSimulate" onclick="runSimulation()">
+                        ▶ Run Demo Simulation
+                    </button>
+                </div>
+                <div class="timeline" id="timeline">
+                    <div class="timeline-empty">Click "Run Demo Simulation" or "Analyze with AI" to test</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="scripts/dashboard.js"></script>
+</body>
+</html>

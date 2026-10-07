@@ -1,0 +1,103 @@
+{
+  "name": "DASI Benchmark",
+  "num_samples": 200,
+  "threshold": 0.5,
+  "timestamp": 1791284418.9157772,
+  "classification": {
+    "accuracy": 0.985,
+    "precision": 0.9899,
+    "recall": 0.98,
+    "f1_score": 0.9849,
+    "specificity": 0.99,
+    "confusion_matrix": {
+      "true_positive": 98,
+      "true_negative": 99,
+      "false_positive": 1,
+      "false_negative": 2
+    }
+  },
+  "ranking": {
+    "roc_auc": 0.9981,
+    "pr_auc": 0.988
+  },
+  "early_detection": {
+    "early_detection_rate": 0.0,
+    "early_total": 0,
+    "early_detected": 0,
+    "per_phase": {}
+  },
+  "campaign": {
+    "note": "No campaign labels available."
+  },
+  "signal_analysis": {
+    "conversation_semantics": {
+      "mean_contribution": 0.245,
+      "std_contribution": 0.0857,
+      "min_contribution": 0.1001,
+      "max_contribution": 0.3992
+    },
+    "temporal_sequence": {
+      "mean_contribution": 0.196,
+      "std_contribution": 0.0556,
+      "min_contribution": 0.1006,
+      "max_contribution": 0.2999
+    },
+    "voice_analysis": {
+      "mean_contribution": 0.1229,
+      "std_contribution": 0.0428,
+      "min_contribution": 0.0504,
+      "max_contribution": 0.1994
+    },
+    "network_graph": {
+      "mean_contribution": 0.1962,
+      "std_contribution": 0.0592,
+      "min_contribution": 0.1003,
+      "max_contribution": 0.2997
+    },
+    "geo_temporal": {
+      "mean_contribution": 0.1025,
+      "std_contribution": 0.0273,
+      "min_contribution": 0.0516,
+      "max_contribution": 0.1491
+    }
+  },
+  "performance": {
+    "avg_processing_time_ms": 53.99,
+    "p50_processing_time_ms": 54.74,
+    "p95_processing_time_ms": 94.1,
+    "p99_processing_time_ms": 97.14,
+    "max_processing_time_ms": 97.82
+  },
+  "threshold_analysis": {
+    "threshold_0.3": {
+      "precision": 0.8197,
+      "recall": 1.0,
+      "f1_score": 0.9009
+    },
+    "threshold_0.4": {
+      "precision": 0.9519,
+      "recall": 0.99,
+      "f1_score": 0.9706
+    },
+    "threshold_0.5": {
+      "precision": 0.9899,
+      "recall": 0.98,
+      "f1_score": 0.9849
+    },
+    "threshold_0.6": {
+      "precision": 0.9885,
+      "recall": 0.86,
+      "f1_score": 0.9198
+    },
+    "threshold_0.7": {
+      "precision": 1.0,
+      "recall": 0.74,
+      "f1_score": 0.8506
+    },
+    "threshold_0.8": {
+      "precision": 1.0,
+      "recall": 0.49,
+      "f1_score": 0.6577
+    }
+  }
+}

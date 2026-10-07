@@ -1,0 +1,3148 @@
+[
+  {
+    "sample_id": "sample_00045",
+    "is_scam": true,
+    "num_messages": 10,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8504897489966817,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00095",
+    "is_scam": true,
+    "num_messages": 11,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7517586614286488,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00110",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.03161986440630025,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00142",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.10865275758444007,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00056",
+    "is_scam": true,
+    "num_messages": 12,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      4,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7254506514303084,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00019",
+    "is_scam": true,
+    "num_messages": 8,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7193661606442642,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00087",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6566094154255275,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00145",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.023472470410878514,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00193",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.08820004237523808,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00185",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.051606928886285465,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00065",
+    "is_scam": true,
+    "num_messages": 11,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      4,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6389933295809197,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00092",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6796708397990465,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00168",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.02897126601371868,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00111",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.09081032895712168,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00122",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.07765231590886891,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00060",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      3,
+      6
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8426859590275125,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00188",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.06194250804821682,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00089",
+    "is_scam": true,
+    "num_messages": 10,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      3,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6931192191612147,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00070",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6074921990849043,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00098",
+    "is_scam": true,
+    "num_messages": 10,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6820943630077296,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00022",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7658321965979508,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00198",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.05116421197768189,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00017",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7347533295468054,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00164",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.07414487860010519,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00173",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.026357796265063776,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00094",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.5596557766988516,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00113",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.04724251882676538,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00072",
+    "is_scam": true,
+    "num_messages": 13,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      4,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6961775578009449,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00175",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.10353336964360224,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00034",
+    "is_scam": true,
+    "num_messages": 10,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      4,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.742649077241054,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00074",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.5909244929837273,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00169",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.055975884490072965,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00182",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.06430903182781929,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00128",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.056540160192267735,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00156",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.04361115907187056,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00068",
+    "is_scam": true,
+    "num_messages": 11,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      3,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7329041343364748,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00055",
+    "is_scam": true,
+    "num_messages": 8,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8323842147934966,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00157",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.06427052127759417,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00057",
+    "is_scam": true,
+    "num_messages": 12,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      3,
+      6
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8336417837267869,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00099",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      3
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6520558378472878,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00039",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8266119873216276,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00036",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      3
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.63788312458866,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00124",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00101",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.05118695797375028,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00170",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.01922722868956341,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00139",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.06055628477822207,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00037",
+    "is_scam": true,
+    "num_messages": 13,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      4,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6339493020661521,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00002",
+    "is_scam": true,
+    "num_messages": 6,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      3
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6660995061296847,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00006",
+    "is_scam": true,
+    "num_messages": 10,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      4,
+      5
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8126628997620022,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00086",
+    "is_scam": true,
+    "num_messages": 8,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7176128182805775,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00136",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.06494527075676018,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00001",
+    "is_scam": true,
+    "num_messages": 13,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      3,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7535522341882825,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00125",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.041030328462084285,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00155",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.037957046976946074,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00097",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7098701548840913,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00091",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7555995461929113,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00191",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.06057278171964513,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00007",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7744123962504791,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00140",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0924636168812322,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00088",
+    "is_scam": true,
+    "num_messages": 10,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7473722309309927,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00035",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7562355169949256,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00032",
+    "is_scam": true,
+    "num_messages": 12,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      4,
+      6
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8649710303441441,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00054",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6494676640465775,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00025",
+    "is_scam": true,
+    "num_messages": 8,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7898417921402874,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00031",
+    "is_scam": true,
+    "num_messages": 11,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7154483009035911,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00041",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.752087961800597,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00129",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.02058304166685923,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00150",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0383473219886553,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00187",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.08435852126606613,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00012",
+    "is_scam": true,
+    "num_messages": 8,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6710310471799696,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00192",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.06757365537083601,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00107",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00030",
+    "is_scam": true,
+    "num_messages": 11,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      4,
+      6
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8333643122187266,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00044",
+    "is_scam": true,
+    "num_messages": 12,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6498044472388542,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00010",
+    "is_scam": true,
+    "num_messages": 11,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7901422243992271,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00005",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6996987990364131,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00149",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.05629744281959643,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00029",
+    "is_scam": true,
+    "num_messages": 8,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      3
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7354999596886973,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00180",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.04803256104371938,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00081",
+    "is_scam": true,
+    "num_messages": 13,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      4,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7110157160998637,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00194",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.10364546811344916,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00071",
+    "is_scam": true,
+    "num_messages": 6,
+    "phases": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6242352750950941,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00146",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00121",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.06648834137430024,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00102",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.04765664084617615,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00189",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.028658432799427976,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00073",
+    "is_scam": true,
+    "num_messages": 12,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8407929479909032,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00172",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.06031624426302147,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00049",
+    "is_scam": true,
+    "num_messages": 11,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      4,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7224236717405773,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00109",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0883353897234302,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00106",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.034092845226189925,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00018",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7278029755478187,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00024",
+    "is_scam": true,
+    "num_messages": 11,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8373172376622112,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00161",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.11654900506542255,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00004",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.5956516861563559,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00158",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.03663611649952574,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00141",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.05990065304879479,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00166",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.04353457088789621,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00115",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.06238214664881977,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00183",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.05311697787527924,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00014",
+    "is_scam": true,
+    "num_messages": 6,
+    "phases": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6625389124528379,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00020",
+    "is_scam": true,
+    "num_messages": 10,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7142675926714241,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00197",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.042934573362807954,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00048",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      3,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7580102043876742,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00015",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.746844907293457,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00038",
+    "is_scam": true,
+    "num_messages": 11,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      4,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7521568852789605,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00162",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.02835079119259263,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00085",
+    "is_scam": true,
+    "num_messages": 10,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7536223271252354,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00130",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.029779681813841892,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00079",
+    "is_scam": true,
+    "num_messages": 8,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.610490824465179,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00093",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.5626264721198716,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00069",
+    "is_scam": true,
+    "num_messages": 11,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      3,
+      5
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7989644241161855,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00021",
+    "is_scam": true,
+    "num_messages": 12,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8724802293991242,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00027",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      3
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6216391106027954,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00116",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.08043690783752896,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00066",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6680493019638813,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00196",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00123",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.055167027770071625,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00061",
+    "is_scam": true,
+    "num_messages": 10,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      3,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6570434172830464,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00159",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.04757709402225597,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00179",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.07100488711579372,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00064",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6927903571443786,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00148",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00120",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.007832702268918856,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00096",
+    "is_scam": true,
+    "num_messages": 11,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      3,
+      5
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7939454752507532,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00011",
+    "is_scam": true,
+    "num_messages": 10,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7414279855443129,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00078",
+    "is_scam": true,
+    "num_messages": 12,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      3,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7013187243762272,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00186",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.048837757899588434,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00046",
+    "is_scam": true,
+    "num_messages": 11,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8326221970335838,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00105",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00077",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.727949060728763,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00178",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.08599144189818614,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00013",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      3,
+      6
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7623578082066019,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00058",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.701759014603362,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00133",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00050",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7727377413763146,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00195",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0791675545194033,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00114",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0305892463240148,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00165",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.028199015883757554,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00023",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6276855599101807,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00163",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0010712257491017618,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00167",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.03404450481657734,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00108",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.018940299641144805,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00190",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.058652750426742575,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00147",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.06537183285935415,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00200",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.08555241743116249,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00118",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00067",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6638894201073807,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00047",
+    "is_scam": true,
+    "num_messages": 8,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7260227778030469,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00151",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.010204619925721678,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00103",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.10587926624243071,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00051",
+    "is_scam": true,
+    "num_messages": 6,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7433779375082268,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00154",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0054367420990895365,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00126",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.056940187075713286,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00083",
+    "is_scam": true,
+    "num_messages": 8,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      4,
+      5
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8082987361529983,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00137",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.10180553653803104,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00052",
+    "is_scam": true,
+    "num_messages": 12,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8714533753378034,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00040",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7496998213520086,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00112",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.07063759383219767,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00008",
+    "is_scam": true,
+    "num_messages": 11,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6969062750646325,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00184",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.031836529360176,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00043",
+    "is_scam": true,
+    "num_messages": 11,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      3,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6828951721927358,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00009",
+    "is_scam": true,
+    "num_messages": 8,
+    "phases": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6616361718135638,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00132",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.03177216375461111,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00104",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.05813616705093214,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00026",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6617720947845425,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00143",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.07221536368227022,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00171",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.05558265915402416,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00003",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6148340621036549,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00100",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6532965208274514,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00144",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.032582358578289804,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00042",
+    "is_scam": true,
+    "num_messages": 8,
+    "phases": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7077816667264073,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00131",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.033141821698012094,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00153",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0775989469834817,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00059",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7138727531741217,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00062",
+    "is_scam": true,
+    "num_messages": 7,
+    "phases": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6991757130448726,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00082",
+    "is_scam": true,
+    "num_messages": 9,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      3
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8130134192841265,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00033",
+    "is_scam": true,
+    "num_messages": 11,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      4,
+      5
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8135565731952371,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00016",
+    "is_scam": true,
+    "num_messages": 10,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7500489257757815,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 0
+  },
+  {
+    "sample_id": "sample_00199",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.06835877988583451,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00127",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.06294893004288231,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00152",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.022490340269167665,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00075",
+    "is_scam": true,
+    "num_messages": 8,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6539595294171533,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00174",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.05392978200459654,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00084",
+    "is_scam": true,
+    "num_messages": 6,
+    "phases": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6470940087813593,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 4
+  },
+  {
+    "sample_id": "sample_00160",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.03659340888363001,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00176",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.03402909905972476,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00063",
+    "is_scam": true,
+    "num_messages": 12,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      4,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7328390143770874,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00135",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.028732888451674547,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00181",
+    "is_scam": false,
+    "num_messages": 3,
+    "phases": [
+      0,
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00119",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.0,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00053",
+    "is_scam": true,
+    "num_messages": 8,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      3
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7442334448108832,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 2
+  },
+  {
+    "sample_id": "sample_00134",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.018496989532019503,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00076",
+    "is_scam": true,
+    "num_messages": 10,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      4,
+      5
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8079324790776908,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00177",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.04736732788325589,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00138",
+    "is_scam": false,
+    "num_messages": 2,
+    "phases": [
+      0,
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.04447778412040947,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00028",
+    "is_scam": true,
+    "num_messages": 5,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      4
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.7649319598194102,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 1
+  },
+  {
+    "sample_id": "sample_00080",
+    "is_scam": true,
+    "num_messages": 12,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "audio_is_deepfake": true,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.8179992485350077,
+    "threat_level_label": "HIGH",
+    "campaign_id_label": 3
+  },
+  {
+    "sample_id": "sample_00117",
+    "is_scam": false,
+    "num_messages": 1,
+    "phases": [
+      0
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": false,
+    "threat_score_label": 0.02128635633623144,
+    "threat_level_label": "MINIMAL",
+    "campaign_id_label": null
+  },
+  {
+    "sample_id": "sample_00090",
+    "is_scam": true,
+    "num_messages": 12,
+    "phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      3,
+      6
+    ],
+    "audio_is_deepfake": false,
+    "network_is_syndicate": true,
+    "threat_score_label": 0.6400968053381885,
+    "threat_level_label": "MEDIUM",
+    "campaign_id_label": 4
+  }
+]

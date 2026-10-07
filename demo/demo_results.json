@@ -1,0 +1,62 @@
+{
+  "scenario": "digital_arrest_scam_demo",
+  "system_status": {
+    "active_campaigns": 2,
+    "total_campaigns": 2
+  },
+  "campaigns": [
+    {
+      "campaign_id": 0,
+      "centroid_norm": 0.6156250238418579,
+      "velocity_norm": 0.0,
+      "signal_pattern": {
+        "conversation_semantics": 0.30097475126385687,
+        "temporal_sequence": 0.13225891813635826,
+        "voice_analysis": 0.12979878708720208,
+        "network_graph": 0.1663040079176426,
+        "geo_temporal": 0.05000000074505806
+      },
+      "first_seen": 1787124456.4754934,
+      "last_seen": 1787124457.387479,
+      "num_incidents": 5,
+      "severity": 0.3118,
+      "active": true,
+      "duration_hours": 0.0
+    },
+    {
+      "campaign_id": 1,
+      "centroid_norm": 549262144.0,
+      "velocity_norm": 0.0,
+      "signal_pattern": {
+        "conversation_semantics": 0.35829345881938934,
+        "temporal_sequence": 0.10000000149011612,
+        "voice_analysis": 0.10000000149011612,
+        "network_graph": 0.33807680010795593,
+        "geo_temporal": 0.3850000146776438
+      },
+      "first_seen": 1787124457.412514,
+      "last_seen": 1787124457.4365792,
+      "num_incidents": 2,
+      "severity": 0.379,
+      "active": true,
+      "duration_hours": 0.0
+    }
+  ],
+  "graph_stats": {
+    "num_nodes": 14,
+    "num_edges": 22,
+    "node_type_counts": {
+      "phone": 6,
+      "ip_address": 4,
+      "device_id": 2,
+      "bank_account": 2
+    },
+    "edge_type_counts": {
+      "called": 7,
+      "same_ip": 7,
+      "same_device": 7,
+      "transferred_to": 1
+    },
+    "avg_degree": 1.5714285714285714
+  }
+}

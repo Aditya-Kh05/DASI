@@ -1,0 +1,12 @@
+{
+  "total_samples": 200,
+  "num_scam": 100,
+  "num_legitimate": 100,
+  "num_campaigns": 5,
+  "num_deepfake_audio": 36,
+  "num_syndicate_graphs": 100,
+  "geo_events": 173,
+  "generation_time_seconds": 1.23,
+  "avg_threat_score_scam": 0.7237,
+  "avg_threat_score_legit": 0.0478
+}

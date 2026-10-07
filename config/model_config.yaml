@@ -1,0 +1,110 @@
+# ============================================================
+# Model Configuration — Digital Arrest Scam Intelligence System
+# ============================================================
+
+# Signal 1: Conversation Semantics
+conversation_semantics:
+  model_name: "bert-base-multilingual-cased"      # Base model (use ai4bharat/indic-bert for production)
+  max_seq_length: 512
+  embedding_dim: 256
+  num_labels: 5                                     # authority, urgency, isolation, coercion, legal_abuse
+  dropout: 0.3
+  learning_rate: 2.0e-5
+  confidence_decay_rate: 0.01                       # Slow decay — text doesn't change
+
+# Signal 2: Temporal Sequence
+temporal_sequence:
+  embedding_dim: 128
+  num_phases: 6                                     # Scam phases 1-6
+  lstm_hidden_dim: 256
+  lstm_num_layers: 2
+  attention_heads: 4
+  dropout: 0.2
+  phase_transition_threshold: 0.6
+  confidence_decay_rate: 0.05                       # Medium decay
+
+# Signal 3: Voice Analysis
+voice_analysis:
+  embedding_dim: 128
+  sample_rate: 16000
+  n_mfcc: 40
+  n_fft: 2048
+  hop_length: 512
+  mel_bands: 128
+  deepfake_threshold: 0.7
+  cnn_channels: [32, 64, 128, 256]
+  confidence_decay_rate: 0.03                       # Medium decay
+
+# Signal 4: Network Graph
+network_graph:
+  embedding_dim: 256
+  gnn_layers: 3
+  gnn_hidden_dim: 256
+  attention_heads: 4
+  dropout: 0.2
+  edge_types: ["called", "transferred_to", "same_device", "same_ip", "same_time_window"]
+  node_types: ["phone", "bank_account", "ip_address", "device_id", "victim"]
+  cluster_min_size: 3
+  confidence_decay_rate: 0.005                      # Very slow decay — structure is stable
+
+# Signal 5: Geo-Temporal
+geo_temporal:
+  embedding_dim: 64
+  spatial_eps: 50.0                                 # km — DBSCAN epsilon
+  temporal_eps: 3600                                # seconds — 1 hour window
+  min_cluster_size: 5
+  spread_model_type: "sir"                          # SIR epidemic model
+  confidence_decay_rate: 0.1                        # Fast decay — patterns shift quickly
+
+
+# ============================================================
+# TCAFE — Temporal Confidence-Aware Fusion Engine
+# ============================================================
+tcafe:
+  fused_embedding_dim: 256
+  num_attention_heads: 8
+  attention_dropout: 0.1
+  fusion_layers: 2
+  velocity_window_size: 5                           # Number of time steps for velocity calc
+  velocity_threshold: 0.3                           # Escalation velocity alert threshold
+  campaign_fingerprint_dim: 128
+  campaign_cluster_threshold: 0.7
+  
+  # Signal weights (initial, learned during training)
+  initial_signal_weights:
+    conversation_semantics: 0.25
+    temporal_sequence: 0.25
+    voice_analysis: 0.15
+    network_graph: 0.20
+    geo_temporal: 0.15
+
+
+# ============================================================
+# Campaign Intelligence
+# ============================================================
+campaign:
+  max_active_campaigns: 1000
+  campaign_expiry_hours: 168                        # 7 days
+  alert_levels:
+    low: 0.3
+    medium: 0.5
+    high: 0.7
+    critical: 0.9
+  trajectory_forecast_horizon: 24                   # hours
+  fingerprint_similarity_threshold: 0.75
+
+
+# ============================================================
+# Training Configuration
+# ============================================================
+training:
+  batch_size: 32
+  epochs: 50
+  optimizer: "adamw"
+  weight_decay: 0.01
+  scheduler: "cosine"
+  warmup_steps: 500
+  gradient_clip: 1.0
+  early_stopping_patience: 5
+  validation_split: 0.15
+  test_split: 0.15
